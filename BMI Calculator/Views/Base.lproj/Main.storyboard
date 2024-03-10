@@ -128,7 +128,9 @@
                     </view>
                     <connections>
                         <outlet property="height" destination="Xcz-1j-2c9" id="tk2-TH-xxY"/>
+                        <outlet property="heightData" destination="Pky-qY-oVp" id="E9o-go-kiu"/>
                         <outlet property="weight" destination="LTF-aL-8qu" id="dS9-y7-xcV"/>
+                        <outlet property="weightData" destination="s2X-C5-Zcz" id="R19-TG-znZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
