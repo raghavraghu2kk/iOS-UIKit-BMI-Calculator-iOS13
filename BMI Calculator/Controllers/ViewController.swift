@@ -33,10 +33,17 @@ class ViewController: UIViewController {
     @IBAction func calculatePressed(_ sender: UIButton) {
         let weight = weightData.value/2
         let height = heightData.value/2
-        var BMI = (weight) / (pow(height, 2))
+        let BMI =  String(format: "%.2f", ((weight) / (pow(height, 2))))
+        
         print(weight)
         print(height)
         print(BMI)
+        
+        let secondView = SecondViewController()
+        secondView.bmi = BMI
+        
+        self.present(secondView, animated: true)
+        
     }
     
 
